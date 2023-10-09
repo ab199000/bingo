@@ -1,0 +1,107 @@
+@font-face{
+    font-family: 'Rubik_Bold';
+    src: url('../fonts/Rubik-Bold.ttf');
+}
+@font-face{
+    font-family: 'Rubik_Light';
+    src: url('../fonts/Rubik-Light.ttf');
+}
+@font-face{
+    font-family: 'Rubik_Medium';
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    /* padding-top: 60px; */
+
+}
+header{
+    display: flex;
+    background-color: rgb(232 231 223);
+    width: 100%;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 80px;
+    font-family: "Rubik_Bold";
+}
+
+.Navy_blue{
+    color: rgb(17, 17, 80);
+}
+.blue{
+    color: rgb(98, 198, 255);
+}
+
+.container{
+    width: 1440px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Rubik_Medium";
+}
+
+
+nav{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+    align-items: center;
+}
+
+.widgets button{
+    border:0px;
+    background-color: rgb(232 231 223);
+}
+
+.widgets{
+    display: flex;
+    gap: 20px;
+}
+
+.header_main{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_main p{
+    font-family: "Rubik_Light";
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.btn_header{
+    /* display: block; */
+    width: 290px;
+    height: 80px;
+    background-color: rgb(252, 107, 40);
+    border: 0px;
+    border-radius: 30px;
+
+    margin-top: 80px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.btn_header a{
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik_Medium";
+}
