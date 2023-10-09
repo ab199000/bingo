@@ -1,24 +1,28 @@
-@font-face{
+@font-face {
     font-family: 'Rubik_Bold';
     src: url('../fonts/Rubik-Bold.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: 'Rubik_Light';
     src: url('../fonts/Rubik-Light.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: 'Rubik_Medium';
     src: url('../fonts/Rubik-Medium.ttf');
 }
-body{
-    display: flex;
+
+body {
+    display: block;
     margin: 0px;
     padding: 0px;
     justify-content: center;
     /* padding-top: 60px; */
 
 }
-header{
+
+header {
     display: flex;
     background-color: rgb(232 231 223);
     width: 100%;
@@ -26,82 +30,251 @@ header{
     padding-top: 60px;
 }
 
-h1{
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
     margin: 0px;
-    font-size: 80px;
+    font-size: 90px;
     font-family: "Rubik_Bold";
 }
 
-.Navy_blue{
-    color: rgb(17, 17, 80);
-}
-.blue{
-    color: rgb(98, 198, 255);
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-.container{
+.Navy_blue {
+    color: rgb(5 20 57);
+}
+
+.blue {
+    color: rgb(50 191 206);
+}
+
+.container {
     width: 1440px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-family: "Rubik_Medium";
 }
 
 
-nav{
+nav {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
-    
 }
 
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 300px;
+    margin-bottom: 260px;
     align-items: center;
 }
 
-.widgets button{
-    border:0px;
+.widgets button {
+    border: 0px;
     background-color: rgb(232 231 223);
 }
 
-.widgets{
+.widgets {
     display: flex;
     gap: 20px;
 }
 
-.header_main{
+.header_main {
     display: block;
     justify-content: center;
     text-align: center;
 }
 
-.header_main p{
+.header_main p {
     font-family: "Rubik_Light";
     font-size: 26px;
     font-weight: 400;
     padding-top: 20px;
 }
 
-.btn_header{
-    /* display: block; */
+.btn_header {
     width: 290px;
     height: 80px;
     background-color: rgb(252, 107, 40);
     border: 0px;
     border-radius: 30px;
 
-    margin-top: 80px;
-    /* justify-content: center;
-    align-items: center; */
+    margin-top: 60px;
+    margin-bottom: 90px;
 }
-.btn_header a{
+
+.btn_header a {
     color: white;
     font-size: 20px;
     font-family: "Rubik_Medium";
+}
+
+.about {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about p {
+    font-family: 'Rubik_Light';
+    width: 85%;
+    font-size: 20px;
+}
+
+.about_text {
+    width: 50%;
+}
+
+.about h2 {
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+    width: max-content;
+}
+
+.types_games {
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.types_games_item {
+    border-radius: 50px;
+    padding-bottom: 40px;
+
+    max-width: 400px;
+}
+
+.types_games_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.color1{
+    background-color: #f3e5f4;
+}
+.color2{
+    background-color: #daf3f5;
+}
+.color3{
+    background-color: #f6eed1;
+}
+
+.types_games h3 {
+    font-family: 'Rubik_Bold';
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.types_games p {
+    font-family: 'Rubik_Light';
+    font-weight: 400;
+    width: 73%;
+
+    margin: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.types_games img {
+    display: block;
+    /* width: 40%; */
+    /* height: 40%; */
+    height: 290px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+
+.advantages h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+    margin-top: 0px;
+
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+.advantages p{
+    font-family: 'Rubik_Light';
+    font-weight: 400;
+    width: 73%;
+
+    margin: 0px;
+    margin-bottom: 60px;
+}
+
+.advantages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 100px 15%;
+
+    border-radius: 100px;
+    background-color: rgb(240 240 235);
+}
+
+.advantages ul{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+/* .advantages::before{
+    content: '';
+    position: absolute;
+
+    background-color: rgb(240 240 235);
+
+    width: 10000px;
+    height: 10px;
+} */
+
+.advantages_item_list{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.advantages_item_list p{
+    position: absolute;
+    font-family: 'Rubik_Bold';
+    margin: 0px;
+}
+
+.up{
+    transform: translate(-28%, -90%)
+}
+
+.down{
+    transform: translate(-28%, 90%)
 }
