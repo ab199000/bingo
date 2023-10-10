@@ -61,9 +61,6 @@ ul {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 a {
@@ -275,10 +272,7 @@ nav {
 
 
 .favorit_game{
-    /* padding-left: 15rem;
-    padding-right: 15rem; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-bottom: 100px;
 }
@@ -339,6 +333,7 @@ nav {
 .sale{
     width: 100%;
 
+    margin-bottom: 100px;
 
     padding-top: 100px;
 
@@ -376,8 +371,220 @@ nav {
 
 .sale_img{
     margin-bottom: 450px;
+    position: relative;
+}
+
+.sale_img img{
+    /* position: relative; */
 }
 
 .sale_block_r p{
     width: 100%;
+}
+
+.heart{
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    transform: rotate(-30deg);
+    text-align: center;
+    color: #32bfce;
+
+    font-family: 'Rubik_Bold';
+}
+
+
+
+.game_city{
+    display: flex;
+    gap: 60px;
+
+    margin-bottom: 600px;
+}
+
+.game_city p{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+
+    margin: 0px;
+}
+
+.left_desk{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.right_desk h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+
+    /* margin: 0px; */
+
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.right_desk p{
+    margin-bottom: 30px;
+}
+
+.mark{
+    display: flex;
+    gap: 40px;
+
+    align-items: center;
+}
+
+.slovo{
+    display: flex;
+    background-color: #daf3f5;
+    width: max-content;
+    border-radius: 15px;
+    gap: 7px;
+
+    padding: 15px 40px;
+}
+
+.slovo p{
+    margin: 0px;
+}
+
+.mark p{
+    font-family: 'Rubik_Bold';
+    font-size: 25px;
+}
+
+.star{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.star p{
+    margin: 0px;
+}
+
+.star img{
+    width: 40px;
+}
+
+.for_game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f0eb;
+
+    border-radius: 15px;
+
+    padding: 7px;
+
+    max-width: 1050px;
+}
+
+.for_game input{
+    display: none;
+    width: 100%;
+}
+
+.for_game label{
+
+    font-family: 'Rubik_Bold';
+
+    border: 0px;
+
+    cursor: pointer;
+
+    padding: 20px 70px;
+}
+
+.for_game input:checked + label {
+    background: #f5d961;
+    border-radius: 20px;
+}
+
+.characteristics{
+    display: flex;
+    gap: 30px;
+}
+
+.characteristics p{
+    font-family: 'Rubik_Bold';
+}
+
+
+.buy{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.buy p{
+    font-family: 'Rubik_Bold';
+    font-size: 60px;
+}
+
+
+.invit{
+    background-color: #f0f0eb;
+}
+
+.personal_info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.personal_info p{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+    /* color: #afb4ba; */
+    margin: 0px;
+    margin-bottom: 15px;
+
+    opacity: 0.6;
+}
+
+.personal_info input{
+    border: #c3c6c9 solid 1px;
+    border-radius: 10px;
+
+    background-color: #f0f0eb;
+
+    padding: 15px 20px;
+    font-size: 20px;
+
+    font-family: 'Rubik_Light';
+    color: black;
+
+    /* opacity: 0.1; */
+}
+
+::placeholder{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+    color: black;
+}
+
+.invit_text p{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+
+    margin: 0px;
+}
+
+.invit_text h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+    
+    margin: 0px;
+}
+
+.levels p{
+    font-family: 'Rubik_Light';
+    font-size: 15px;
+    font-weight: 400;
+
+    margin: 0px;
 }
