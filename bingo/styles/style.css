@@ -527,13 +527,20 @@ nav {
 
 
 .invit{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
     background-color: #f0f0eb;
+
+    gap: 50px;
 }
 
 .personal_info{
     display: flex;
     flex-direction: column;
     gap: 25px;
+
+    padding-top: 400px;
 }
 
 .personal_info p{
@@ -558,6 +565,7 @@ nav {
     font-family: 'Rubik_Light';
     color: black;
 
+    width: 100%;
     /* opacity: 0.1; */
 }
 
@@ -567,11 +575,16 @@ nav {
     color: black;
 }
 
+.invit_text{
+    width: 50%;
+}
+
 .invit_text p{
     font-family: 'Rubik_Light';
     font-size: 20px;
 
     margin: 0px;
+    width: 70%;
 }
 
 .invit_text h3{
@@ -579,6 +592,11 @@ nav {
     font-size: 70px;
     
     margin: 0px;
+    margin-bottom: 30px;
+}
+
+.levels{
+    margin-top: 30px;
 }
 
 .levels p{
@@ -587,4 +605,20 @@ nav {
     font-weight: 400;
 
     margin: 0px;
+    margin-bottom: 10px;
+}
+
+.levels label{
+    font-family: 'Rubik_Light';
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+
+.right_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
