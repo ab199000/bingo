@@ -13,6 +13,10 @@
     src: url('../fonts/Rubik-Medium.ttf');
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 body {
     display: block;
     margin: 0px;
@@ -110,6 +114,17 @@ nav {
     font-size: 26px;
     font-weight: 400;
     padding-top: 20px;
+}
+
+.img_header_left{
+    position: absolute;
+    left: 0px;
+    top: 60%;
+}
+.img_header_right{
+    position: absolute;
+    right: 0px;
+    top: 25%;
 }
 
 .btn_header {
@@ -210,6 +225,13 @@ nav {
     height: 290px;
     width: 180px;
     margin: 0 auto;
+}
+
+.adv_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -404,7 +426,7 @@ nav {
     display: flex;
     gap: 60px;
 
-    margin-bottom: 600px;
+    margin-bottom: 300px;
 }
 
 .game_city p{
@@ -538,6 +560,8 @@ nav {
     background-color: #f0f0eb;
     width: 100%;
     gap: 50px;
+
+    padding-bottom: 50px;
 }
 
 .personal_info{
@@ -641,7 +665,7 @@ nav {
 
 
 .imgs{
-    margin-top: 80px;
+    margin-top: 40px;
     position: relative;
 }
 
@@ -649,57 +673,12 @@ nav {
     font-family: 'Rubik_Bold';
 }
 
-/* .img1 img{
+.img1{
+    position: relative;
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 80px;
-
-} 
-
-.img2 img{
-    position: absolute;
-    right: 57%;
-}
-.img3 img{
-    position: absolute;
-    right: 33%;
-    top: 30px;
-}
-
-.img4 img{
-    position: absolute;
-    right: 40%;
-    top: 150px;
-}
-
-.img1 p{
-    position: absolute;
-}
-
-.img2 p{
-    position: absolute;
-    
-}
-.img3 p{
-    position: absolute;
-}
-
-.img4 p{
-    position: relative;
-}
-
-.img1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-.img1{
-    position: relative;
-    
-    position: absolute;
-    display: flex;
-    align-items: center;
-    
 }
 .img1 p{
     position: absolute;
@@ -710,10 +689,11 @@ nav {
 
 .img2{
     position: relative;
-    position: absolute;
     display: flex;
     align-items: center;
-    right: 57%;
+    position: absolute;
+    /* right: 57%; */
+    right: 410px;
 }
 .img2 p{
     position: absolute;
@@ -724,12 +704,13 @@ nav {
 }
 
 .img3{
-     /* position: relative; */
+    position: relative;
     display: flex;
     align-items: center;
-    /* position: absolute; */
-    right: 40px;
-    /* top: 150px; */
+    position: absolute;
+    /* right: 33%; */
+    right: 240px;
+    top: 30px;
     
 }
 .img3 p{
@@ -745,7 +726,8 @@ nav {
     display: flex;
     align-items: center;
     position: absolute;
-    right: 40%;
+    /* right: 40%; */
+    right: 290px;
     top: 150px;
     
 }
