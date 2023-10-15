@@ -701,7 +701,8 @@ nav {
     align-items: center;
     position: absolute;
     /* right: 57%; */
-    right: 410px;
+    /* right: 410px; */
+    left: 170px;
 }
 .img2 p{
     position: absolute;
@@ -717,7 +718,8 @@ nav {
     align-items: center;
     position: absolute;
     /* right: 33%; */
-    right: 240px;
+    /* right: 240px; */
+    left: 320px;
     top: 30px;
     
 }
@@ -735,7 +737,8 @@ nav {
     align-items: center;
     position: absolute;
     /* right: 40%; */
-    right: 290px;
+    /* right: 290px; */
+    left: 130px;
     top: 150px;
     
 }
@@ -900,6 +903,20 @@ nav {
     nav{
         flex-direction: column;
         row-gap: 10px;
+    }
+
+    .img1{
+        left: -120px;
+    }
+
+    .img2{
+        left: 30px;
+    }
+    .img3{
+        left: 180px;
+    }
+    .img4{
+        left: 20px;
     }
 
 }
