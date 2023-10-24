@@ -1,0 +1,941 @@
+@font-face {
+    font-family: 'Rubik_Bold';
+    src: url('../fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik_Light';
+    src: url('../fonts/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik_Medium';
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    /* padding-top: 60px; */
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(232 231 223);
+    width: 100%;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #e8e7df;
+    padding: 100px 0px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 80px;
+    font-family: "Rubik_Bold";
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Navy_blue {
+    color: rgb(5 20 57);
+}
+
+.blue {
+    color: rgb(50 191 206);
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Rubik_Medium";
+}
+
+
+nav {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 260px;
+    align-items: center;
+}
+
+.widgets button {
+    border: 0px;
+    background-color: rgb(232 231 223);
+}
+
+.widgets {
+    display: flex;
+    gap: 20px;
+}
+
+.header_main {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_main p {
+    font-family: "Rubik_Light";
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.img_header_left{
+    position: absolute;
+    left: 0px;
+    top: 60%;
+}
+.img_header_right{
+    position: absolute;
+    right: 0px;
+    top: 25%;
+}
+
+.btn_header {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(252, 107, 40);
+    border: 0px;
+    border-radius: 30px;
+
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+
+.btn_header a {
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik_Medium";
+}
+
+.about {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about p {
+    font-family: 'Rubik_Light';
+    width: 85%;
+    font-size: 20px;
+}
+
+.about_text {
+    width: 50%;
+}
+
+.about h2 {
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+    width: max-content;
+}
+
+.types_games {
+    padding: 0px;
+    margin-bottom: 100px;
+}
+
+.types_games_item {
+    border-radius: 50px;
+    padding-bottom: 40px;
+
+    max-width: 400px;
+}
+
+.types_games_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.color1{
+    background-color: #f3e5f4;
+}
+.color2{
+    background-color: #daf3f5;
+}
+.color3{
+    background-color: #f6eed1;
+}
+
+.types_games h3 {
+    font-family: 'Rubik_Bold';
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.types_games p {
+    font-family: 'Rubik_Light';
+    font-weight: 400;
+    width: 73%;
+
+    margin: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.types_games img {
+    display: block;
+    height: 290px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.adv_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.advantages h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+    margin-top: 0px;
+
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+.advantages p{
+    font-family: 'Rubik_Light';
+    font-weight: 400;
+    width: 73%;
+
+    margin: 0px;
+    margin-bottom: 60px;
+}
+
+.advantages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+
+    padding: 100px 4%;
+
+    border-radius: 100px;
+    background-color: rgb(240 240 235);
+
+    margin-bottom: 100px;
+}
+.advantages .wrap{
+
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.advantages ul{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.advantages_item_list{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.advantages_item_list p{
+    position: absolute;
+    font-family: 'Rubik_Bold';
+    margin: 0px;
+}
+
+.up{
+    transform: translate(-28%, -90%)
+}
+
+.down{
+    transform: translate(-28%, 90%)
+}
+
+
+.favorit_game{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.favorit_game h3{
+    text-align: center;
+}
+
+.bottom_shelf{
+    display: flex;
+    gap: 2rem;
+}
+
+.favorit_game h1{
+    margin-bottom: 20px;
+}
+
+
+.favorit_game h3 {
+    font-family: 'Rubik_Bold';
+    color: rgb(5 20 57);;
+    font-size: 30px;
+    margin: 0px;
+
+    position: absolute;
+    top: 1.3rem
+}
+
+
+
+.top_shelf{
+    position: relative;
+    background-color: rgb(232 231 223);
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 10rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom_shelf div {
+    background-color: rgb(232 231 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.round{
+    border-radius: 100%;
+}
+
+.round2{
+    border-radius: 60px;
+}
+
+
+
+.sale{
+    width: 100%;
+
+    margin-bottom: 100px;
+
+    padding-top: 100px;
+
+    background-image: url('../img/photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale p{
+    font-family: 'Rubik_Light';
+    width: 85%;
+    font-size: 20px;
+}
+
+.sale h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+
+    margin: 0px;
+}
+
+
+.sale_block{
+    display: flex;
+
+    gap: 20px;
+}
+
+.sale_block_r{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale_img{
+    margin-bottom: 450px;
+    position: relative;
+}
+
+.sale_img img{
+    /* position: relative; */
+}
+
+.sale_block_r p{
+    width: 100%;
+}
+
+.heart{
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    transform: rotate(-30deg);
+    text-align: center;
+    color: #32bfce;
+
+    font-family: 'Rubik_Bold';
+}
+
+
+
+.game_city{
+    display: flex;
+    gap: 60px;
+
+    margin-bottom: 300px;
+}
+
+.game_city p{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+
+    margin: 0px;
+}
+
+.left_desk{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.right_desk h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+
+    /* margin: 0px; */
+
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.right_desk p{
+    margin-bottom: 30px;
+}
+
+.mark{
+    display: flex;
+    gap: 40px;
+
+    align-items: center;
+}
+
+.slovo{
+    display: flex;
+    background-color: #daf3f5;
+    width: max-content;
+    border-radius: 15px;
+    gap: 7px;
+
+    padding: 15px 40px;
+}
+
+.slovo p{
+    margin: 0px;
+}
+
+.mark p{
+    font-family: 'Rubik_Bold';
+    font-size: 25px;
+}
+
+.star{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.star p{
+    margin: 0px;
+}
+
+.star img{
+    width: 40px;
+}
+
+.for_game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f0eb;
+
+    border-radius: 15px;
+
+    padding: 7px;
+
+    
+    max-width: 1050px;
+}
+
+.for_game input{
+    display: none;
+    width: 100%;
+    
+}
+
+.for_game label{
+    width: max-content;
+    
+    font-family: 'Rubik_Bold';
+
+    border: 0px;
+
+    cursor: pointer;
+
+    padding: 15px 9%;
+}
+
+.for_game input:checked + label {
+    background: #f5d961;
+    border-radius: 20px;
+}
+
+.characteristics{
+    display: flex;
+    gap: 30px;
+}
+
+.characteristics p{
+    font-family: 'Rubik_Bold';
+}
+
+
+.buy{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.buy p{
+    font-family: 'Rubik_Bold';
+    font-size: 60px;
+}
+
+
+.invit{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #f0f0eb;
+    width: 100%;
+    gap: 50px;
+
+    padding-bottom: 50px;
+}
+
+.personal_info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding-top: 400px;
+}
+
+.personal_info p{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+    /* color: #afb4ba; */
+    margin: 0px;
+    margin-bottom: 15px;
+
+    opacity: 0.6;
+}
+
+.personal_info input{
+    border: #c3c6c9 solid 1px;
+    border-radius: 10px;
+
+    background-color: #f0f0eb;
+
+    padding: 15px 20px;
+    font-size: 20px;
+
+    font-family: 'Rubik_Light';
+    color: black;
+
+    width: 100%;
+    /* opacity: 0.1; */
+}
+
+::placeholder{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+    color: black;
+}
+
+.invit_text{
+    width: 50%;
+}
+
+.invit_text p{
+    font-family: 'Rubik_Light';
+    font-size: 20px;
+
+    margin: 0px;
+    width: 70%;
+}
+
+.invit_text h3{
+    font-family: 'Rubik_Bold';
+    font-size: 70px;
+    
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.levels{
+    margin-top: 30px;
+}
+
+.levels p{
+    font-family: 'Rubik_Light';
+    font-size: 15px;
+    font-weight: 400;
+
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.levels label{
+    font-family: 'Rubik_Light';
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.right_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+
+    font-family: 'Rubik_Light';
+}
+
+.foot a{
+    border-bottom: black solid 1px;
+}
+
+
+.imgs{
+    margin-top: 40px;
+    position: relative;
+}
+
+.imgs p{
+    font-family: 'Rubik_Bold';
+}
+
+.img1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+}
+.img1 p{
+    position: absolute;
+    text-align: center;
+    max-width: max-content;
+    margin-left: 35px;
+}
+
+.img2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* right: 57%; */
+    /* right: 410px; */
+    left: 170px;
+}
+.img2 p{
+    position: absolute;
+    text-align: center;
+    max-width: max-content;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.img3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* right: 33%; */
+    /* right: 240px; */
+    left: 320px;
+    top: 30px;
+    
+}
+.img3 p{
+    position: absolute;
+    text-align: center;
+    max-width: max-content;
+    left: 55px;
+    /* transform: rotate(-15deg); */
+}
+
+.img4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* right: 40%; */
+    /* right: 290px; */
+    left: 130px;
+    top: 150px;
+    
+}
+.img4 p{
+    position: absolute;
+    text-align: center;
+    max-width: max-content;
+    margin-left: 55px;
+    transform: rotate(-15deg);
+}
+
+
+
+@media (max-width:1200px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .foot{
+        justify-content: center;
+        text-align: center;
+    }
+    .mark{
+        justify-content: center;
+    }
+
+    .favorit_game{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left_desk{
+        justify-content: center;
+    }
+
+    .buy{
+        justify-content: center;
+    }
+
+    .characteristics{
+        justify-content: center;
+    }
+
+    .right_desk h3{
+        text-align: center;
+    }
+
+    .game_city{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px){
+
+
+    h1{
+        font-size: 40px;
+    }
+
+    .adv_title h3{
+        font-size: 40px;
+    }
+
+    .for_game{
+        flex-direction: column;
+    }
+
+    .sale_block{
+        flex-direction: column;
+    }
+
+    .sale_img{
+        margin-bottom: 0px;
+    }
+
+    .advantages{
+        padding: 50px 25px;
+    }
+
+
+
+    .f_gam{
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .top_shelf{
+        /* width: 450px; */
+    }
+
+    .bottom_shelf{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_main h1{
+        font-size: 40px;
+    }
+
+    .favorit_game h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .invit_text h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .sale_block_r h3{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .foot{
+        flex-direction: column;
+    }
+
+
+
+    .characteristics{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .characteristics p{
+        margin: 0px;
+    }
+
+    .buy{
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+
+        row-gap: 30px;
+    }
+
+    .buy button{
+        margin: 0px;
+    }
+    .buy p{
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .right_desk h3{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .invit{
+        width: 100%;
+    }
+
+    .img_header_left{
+        display: none;
+    }
+
+    .img_header_right{
+        display: none;
+    }
+
+    nav{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .img1{
+        left: -120px;
+    }
+
+    .img2{
+        left: 30px;
+    }
+    .img3{
+        left: 180px;
+    }
+    .img4{
+        left: 20px;
+    }
+
+    
+
+}
