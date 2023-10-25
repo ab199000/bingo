@@ -191,9 +191,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 14px;
+}
 
-
+.types_games_list h3{
+    width: fit-content;
 }
 
 .color1{
@@ -226,8 +228,8 @@ nav {
 
 .types_games img {
     display: block;
-    height: 290px;
-    width: 180px;
+    height: 230px;
+    /* width: 180px; */
     margin: 0 auto;
 }
 
@@ -257,6 +259,10 @@ nav {
     margin-bottom: 60px;
 }
 
+.advantages .container{
+    width: 100%;
+}
+
 .advantages{
     position: relative;
     display: flex;
@@ -281,8 +287,9 @@ nav {
 
 .advantages ul{
     display: flex;
-    gap: 80px;
+    gap: 60px;
     align-items: center;
+    justify-content: center;
 }
 
 .advantages_item_list{
@@ -313,6 +320,7 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 100px;
+    justify-content: center;
 }
 
 .favorit_game h3{
@@ -398,14 +406,14 @@ nav {
 }
 
 
-.sale .container{
+.sale{
     background-image: url('../img/photo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 .sale_block{
     display: flex;
-
     gap: 20px;
 }
 
@@ -419,10 +427,6 @@ nav {
 .sale_img{
     margin-bottom: 450px;
     position: relative;
-}
-
-.sale_img img{
-    /* position: relative; */
 }
 
 .sale_block_r p{
@@ -446,7 +450,7 @@ nav {
     display: flex;
     gap: 60px;
 
-    margin-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 .game_city p{
@@ -462,11 +466,13 @@ nav {
     gap: 70px;
 }
 
+.left_desk img{
+    max-width: 867px;
+}
+
 .right_desk h3{
     font-family: 'Rubik_Bold';
     font-size: 70px;
-
-    /* margin: 0px; */
 
     margin-bottom: 30px;
     margin-top: 40px;
@@ -593,7 +599,7 @@ nav {
     flex-direction: column;
     gap: 25px;
 
-    padding-top: 400px;
+    padding-top: 200px;
 }
 
 .personal_info p{
@@ -650,6 +656,64 @@ nav {
 
 .levels{
     margin-top: 30px;
+}
+
+.levels input{
+    display: none;
+}
+
+.checkB{
+    display: flex;
+    align-items: center;
+}
+
+.checkB label:before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	/* position: absolute; */
+	left: 0;
+	bottom: 1px;
+	background-color: #f0f0eb;
+    margin-right: 5px;
+
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+.checkB input[type=checkbox]:checked + label:before {
+	background-color: black;
+    background-image: url("../img/gal.png");
+    background-size: cover;
+    
+}
+
+.radio_btns label:before {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	/* position: absolute; */
+	left: 0;
+	bottom: 1px;
+	background-color: #f0f0eb;
+    margin-right: 5px;
+
+    border-radius: 100%;
+    border: solid black 1px;
+}
+
+.radio_btns input[type=radio]:checked + label:before {
+	
+    width: 5px;
+	height: 5px;
+    border: solid black 4px;
+}
+
+.radio_btns{
+    display: flex;
+    align-items: center;
 }
 
 .levels p{
@@ -840,6 +904,7 @@ nav {
     .advantages{
         padding: 50px 25px;
     }
+
 
 
 

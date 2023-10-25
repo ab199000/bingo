@@ -21,11 +21,11 @@
 
                 <div class="nav_btn">
                     <nav>
-                        <a href="#">О нас</a>
-                        <a href="#">Каталог</a>
-                        <a href="#">Популярные игры</a>
-                        <a href="#">Игра месяца</a>
-                        <a href="#">Игротеки</a>
+                        <a href="#about">О нас</a>
+                        <a href="#types_games">Каталог</a>
+                        <a href="#favorit_game">Популярные игры</a>
+                        <a href="#game_city">Игра месяца</a>
+                        <a href="#invit">Игротеки</a>
                     </nav>
                 </div>
 
@@ -57,7 +57,7 @@
     </header>
     <main>
         <div class="container">
-            <section class="about wrap">
+            <section id="about" class="about wrap">
                 <div class="about_text">
                     <h2>О НАС</h2>
                     <p>Бинго Бонго – это место, где каждый найдет игру себе по душе. Спортивные, логические,
@@ -77,7 +77,7 @@
                     <img src="./img/game.png" alt="game">
                 </div>
             </section>
-            <section class="types_games">
+            <section id="types_games" class="types_games">
                 <ul class="types_games_list wrap">
                     <li class="types_games_item color1">
                         <h3>Для детей</h3>
@@ -133,7 +133,7 @@
         </section>
 
         <div class="container">
-            <section class="favorit_game wrap">
+            <section id="favorit_game" class="favorit_game wrap">
                 <h1>
                     ЛЮБИМЫЕ ИГРЫ ПОКУПАТЕЛЕЙ
                 </h1>
@@ -177,7 +177,7 @@
             </div>
         </section>
         <div class="container">
-            <section class="game_city">
+            <section id="game_city" class="game_city">
                 <div class="left_desk">
                     <img src="./img/town.png" alt="#">
                     <div class="for_game">
@@ -236,7 +236,7 @@
         </div>
 
         <!-- <div class="container"> -->
-            <section class="invit">
+            <section id="invit" class="invit">
                 <div class="container">
                     <div class="invit wrap">
                         <div class="invit_text">
@@ -288,7 +288,7 @@
                         <div class="right_form">
                             <div class="levels">
                                 <p>Выберите свой игровой уровень</p>
-                                <div>
+                                <div class="radio_btns">
                                     <input class="levels1" type="radio" id="new" name="level" checked="checked">
                                     <label for="new">Новичок</label>
                                     <input type="radio" id="middle" name="level">
@@ -296,8 +296,11 @@
                                     <input type="radio" id="hard" name="level">
                                     <label for="hard">Профессионал</label>
                                 </div>
-                                <input type="checkbox" id="personal_dan">
-                                <label for="personal_dan">Я согласен на обработку моих персональных данных</label>
+                                <div class="checkB">
+                                    <input type="checkbox" id="personal_dan">
+                                <label class="checkB" for="personal_dan">Я согласен на обработку моих персональных данных</label>
+                                </div>
+                                
                             </div>
                             <button class="btn_header">
                                 <a href="#">Купить билет</a>
