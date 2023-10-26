@@ -26,7 +26,8 @@ body {
     padding: 0px;
     justify-content: center;
     /* padding-top: 60px; */
-
+    max-width: 1440px;
+    margin: auto;
 }
 
 header {
@@ -35,13 +36,23 @@ header {
     width: 100%;
     justify-content: center;
     padding-top: 60px;
+
+    background-image: url("../img/waves.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-y:130px;
+    background-position-x: center;
 }
 
 main {
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 footer{
@@ -586,12 +597,25 @@ nav {
 .invit{
     display: flex;
     /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
-    background-color: #f0f0eb;
+    /* background-color: #f0f0eb; */
     width: 100%;
     gap: 50px;
 
     padding-bottom: 50px;
+
+
+    
+}
+
+.wave{
+    background-image: url("../img/waves.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position: top; */
 }
 
 .personal_info{
@@ -755,6 +779,7 @@ nav {
 
 
 
+
 .imgs{
     margin-top: 40px;
     position: relative;
@@ -876,6 +901,12 @@ nav {
         flex-wrap: wrap;
         flex-direction: column;
     }
+}
+
+@media (max-width:940px){
+    .invit_text{padding-top: 250px;
+    }
+    
 }
 
 @media (max-width:700px){
